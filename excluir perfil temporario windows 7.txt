@@ -1,0 +1,7 @@
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList, abaixo de ProfileList,
+
+você vai ver várias pastas como exemplo:
+S-1-5-21-1214440339-2139871995-725345543-2750,
+
+excluir a pasta inteira que contenha a chave com o login desejado

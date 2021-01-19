@@ -1,0 +1,4 @@
+runas /u:administrador cmd --logar com o administrador na máquina  
+Taskkill /f /im explorer.exe -- Encerra o explore do usuário  
+
+explorer.exe -- Abre o Explorer no adm

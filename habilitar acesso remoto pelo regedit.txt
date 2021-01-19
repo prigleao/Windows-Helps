@@ -1,0 +1,15 @@
+Acessar com o \\pegasus\admfile$\manut\command 
+
+regedit 
+
+Arquivo -> Conectar registro de rede -> nome da máquina -> Verificar nomes e OK
+
+
+local machine
+system
+currenfcontrolset
+control
+terminalserver
+fdenytsConnections
+0 - Habilita
+1 - Desabilita

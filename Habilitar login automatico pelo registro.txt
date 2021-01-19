@@ -1,0 +1,11 @@
+Executar > regedit
+
+HKEY_LOCAL_MACHINE/Software/Microsoft/Windows NT/CurrentVersion/Winlogon
+
+criar nova chave com o nome (DefaultDomainName) valor : domain
+
+criar nova chave com o nome (DefaultPassword) valor: (senha)
+
+Alterar a chave: AutoAdminLogon - pra valor 1
+
+Alterar a chave: DefaultUserName - nome login (example) 

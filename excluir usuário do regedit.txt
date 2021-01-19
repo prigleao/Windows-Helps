@@ -1,0 +1,7 @@
+Procedimento para apagar usuário do regedit
+
+Seguir a Chave >
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
+e procurar o login do usuário;
+Pesquisar e excluir todas as pastas que contenham chaves com o nome ou login
+do usuário

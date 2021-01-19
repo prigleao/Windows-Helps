@@ -1,0 +1,8 @@
+Comando para acesso no cmd
+
+Taskkill /f /im explorer.exe -- Encerra o explore do usuário
+
+
+runas /u:administrador cmd --logar com o administrador na máquina
+
+explorer -- Volta para a area de trabalho do usuário
