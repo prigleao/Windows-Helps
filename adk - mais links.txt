@@ -1,0 +1,16 @@
+Mais links:
+
+Visão geral do Windows PE:
+
+http://technet.microsoft.com/library/hh824964.aspx
+
+
+http://technet.microsoft.com/library/hh825212.aspx
+http://technet.microsoft.com/pt-br/windows/hh974336.aspx
+http://technet.microsoft.com/library/hh825029.aspx
+
+
+http://lucianolourenco.com/2012/06/11/windows-adk-kit-de-avaliacao-e-implantacao-do-windows-para-windows-8-release-preview/
+
+utilizado
+http://lucianolourenco.com/2012/11/23/guia-passo-a-passo-de-implantacao-basica-do-windows/
