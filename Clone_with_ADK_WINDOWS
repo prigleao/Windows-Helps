@@ -1,0 +1,23 @@
+@echo off
+
+net use y: \\10.10.1.1\c$ /u:administrador password
+
+echo== Inicio da clonagem 
+echo==
+echo== Internet
+
+dism /apply-image /imagefile:y:\system.wim /index:1 /applydir:s:
+echo== System Concluido
+
+x:\windows\system32\bcdedit /set {bootmgr} device partition=c:
+x:\windows\system32\bcdedit /set {default} device partition=f:
+x:\windows\system32\bcdedit /set {default} osdevice partition=f:
+echo== Máquina ativada
+
+echo== Windows
+dism /apply-image /imagefile:y:\windows.wim /index:1 /applydir:w:
+echo== Windows concluido
+
+
+echo==
+echo== Processo de Clonagem Finalizado
