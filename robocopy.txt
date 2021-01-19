@@ -1,0 +1,26 @@
+Memorunas /u:administrator cdm
+
+net user 10.10.1.1\e$ y: /u:administrador
+
+
+robocopy e$
+
+origem da rede
+\\10.113.0.29\e$\Arquivos\Arquivos\Secretaria\Memorial\Supervisão\Supervisão - Atendimento\central de atendimento
+
+Destino:
+E:\arquivos\Secretaria\Memorial\Supervisão\Supervisão - Atendimento\central de atendimento
+
+comando:
+robocopy "\\rede\e$\fullpath\\" "E:\rede\e$\fullpath\\" /mir /mt /r:1 /w:1 /copy:dats
+
+Pesquisados os comandos: /e /copyall /r:1 /v /ETA /log
+
+caso o comando nao rode por falta de permissão,
+Logar no CMD com o runas e permissão do arcserver.
+
+comando:
+runas /u:domain\user cmd
+senha: ***
+
+http://www.linhadecodigo.com.br/artigo/1342/copiando-dados-com-o-robocopy.aspx
