@@ -1,0 +1,26 @@
+ADK
+
+CAPTURAR IMAGEM
+
+dism /capture-image /imagefile:f:\windows.wim /capturedir:w:\ /name:"Windows"
+
+dism /capture-image /imagefile:f:\system.wim /capturedir:s:\ /name:"System"
+
+http://technet.microsoft.com/en-us/library/hh825072.aspx
+
+
+
+APLICAR IMAGEM
+
+dism /apply-image /imagefile:f:\windows.wim /index:1 /applydir:w:
+
+dism /apply-image /imagefile:f:\system.wim /index:1 /applydir:s:
+
+
+win 7
+bcdedit=AIK
+
+
+win 8
+
+bcdboot w:\windows \s s: ou w:
